@@ -1,0 +1,150 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height: 100%;
+
+}
+@font-face {
+    font-family: 'Kajiro';
+    src: url(Kajiro Bold.ttf);
+}
+#main{
+    width:100%;
+    height: 100vh;
+    background-color: black;
+}
+#back{
+    width: 100%;
+    height:100vh;
+    
+}
+#back img{
+    align-content: center;
+
+}
+#top{
+    pointer-events: none;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100vh;
+    
+}
+
+#workingarea{
+    position: relative;
+    margin:0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920x;
+  
+}
+#nav{
+    pointer-events: all;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    
+    
+}
+
+#nav img{
+    height :100px;
+    
+}
+#nleft ,#nright{
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+#nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:#fff;
+    font-family:"poppins";
+    
+
+}
+
+#hero{
+    position: absolute;
+    top:50%;
+    left:0;
+    transform: translate(-0%,-50%);
+    display : flex;
+    justify-content: space-between;
+    width:100%;
+    height:100px;
+    align-items: center;
+    
+}
+#heroleft{
+    min-width:50%;
+    
+}
+#heroleft .elem{
+    height: 5vw;
+    overflow: hidden; 
+}
+#heroleft .elem h1{
+    line-height: .9;
+    font-family: 'Kajiro';
+    font-weight: 100;
+    font-size: 6vw;
+    color: white;
+}
+#heroleft button{
+    pointer-events: all;
+    padding: 1vw 3vw;
+    font-size: 1vw;
+    font-family: 'poppins';
+    background-color: #fff;
+    margin-top: 2vw;
+}
+#heroright{
+    position: relative;
+    width:25%;
+    height:50vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+      
+}
+#heroright #imgdiv{
+    width:100%;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom:10px;
+}
+#heroright p{
+    color:#fff;
+    font-family: 'poppins';
+    font-size: 14px;
+    font-weight: 300;
+    text-align: right;
+    margin-top: 10px;
+}
+
+#heroright p:nth-child(3){
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+
+}
+
+#heroright img{
+    height: 100%;
+    width: 100%;
+   
+
+}
